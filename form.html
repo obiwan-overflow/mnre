@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-theme">
         <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/logo_s.png" alt="" class="w-50"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo_s.png" alt="" class="w-50"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,11 +30,25 @@
             <li class="nav-item">
               <a class="nav-link" href="#">แผนที่หน่วยงาน</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signin.html">เข้าสู่ระบบ</a>
+            </li>
           </ul>
         </div>
         </div>
     </nav>
-    
+    <div class="breadcrumb-theme">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul>
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li class="active" aria-current="page">แจ้งเรื่องร้องเรียน</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
     <section class="py-5">
         <div class="container">
             <div class="row">
@@ -142,6 +156,35 @@
             <div class="row">
                 <div class="col-md-12">
                     <h3>รายละเอียดเรื่องร้องเรียน</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>บุคคลที่ต้องการร้องเรียน</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            บุคคล
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="">ชื่อ</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            กลุ่ม/คณะบุคคล
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
