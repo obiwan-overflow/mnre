@@ -1,0 +1,22 @@
+/* background */
+.bg-theme {
+    background-color: #0a58b8;
+}
+
+
+/* menu */
+.menu-theme {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* footer */
+.footer {
+    padding: 50px 0;
+    background-color: #eee;
+}
+
+/* color */
+.text-theme {
+    color: #0a58b8;
+}
