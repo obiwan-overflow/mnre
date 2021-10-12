@@ -14,6 +14,10 @@ html,body {
     background-color: #5089C6;
 }
 
+/* navbar */
+.navbar {
+    background-color: #fff !important;
+}
 
 /* menu */
 .menu-theme {
@@ -22,10 +26,12 @@ html,body {
 }
 .menu-theme li a {
     font-size: 1.1rem;
-    color: #eee !important;
+    color: #666 !important;
+    font-weight: bold;
 }
 .menu-theme li.active a {
-    color: #fff !important;
+    color: #FF4316 !important;
+    font-weight: bold;
 }
 
 /* footer */
@@ -34,12 +40,13 @@ html,body {
     background-color: #EFEFEF;
 }
 .footer h5 {
-    color: #001E6C;
+    color: #FF4316;
 }
 
 /* color */
 .text-theme {
-    color: #0a58b8;
+    /* color: #0a58b8; */
+    color: #FF4316;
 }
 .text-orange {
     color: orange;
@@ -48,13 +55,17 @@ html,body {
 
 /* button */
 .btn-theme {
-    background-color: #0a58b8;
-    border-color: #0a58b8;
+    /* background-color: #0a58b8;
+    border-color: #0a58b8; */
+    background-color: #FF4316;
+    border-color: #FF4316;
     color: #fff;
 }
 .btn-theme:hover {
-    background-color: #0b68da;
-    border-color: #0b68da;
+    /* background-color: #0b68da;
+    border-color: #0b68da; */
+    background-color: #FF4316;
+    border-color: #FF4316;
     color: #fff;
 }
 a.btn-form {
@@ -86,8 +97,8 @@ a.btn-ticket {
     text-decoration: none; 
     text-align: center;
     padding: 20px 20px;
-    background-color: #FFC947;
-    border: 2px solid #FFC947;
+    background-color: #FFB740;
+    border: 2px solid #FFB740;
 }
 .btn-ticket h1 {
     color: #0a58b8;
@@ -115,10 +126,9 @@ a.btn-ticket:hover h1 {
 
 /* breadcrumb */
 .breadcrumb-theme {
-    /* background-color: #3d90f5; */
-    background-color: #5089C6;
+    /* background-color: #5089C6; */
+    background-color: #FF4316;
     padding: 6px 0;
-    border-bottom: 2px solid #0b68da;
 }
 .breadcrumb-theme ul {
     list-style-type: none;
@@ -129,10 +139,10 @@ a.btn-ticket:hover h1 {
     display: inline-block;
 }
 .breadcrumb-theme ul li a {
-    color: #fff;
+    color: #f4f4f4;
 }
 .breadcrumb-theme ul li.active {
-    color: #f4f4f4;
+    color: #fff;
 }
 .breadcrumb-theme ul li:before {
     content: "/";
@@ -172,4 +182,9 @@ a.text-link:hover p {
     color: #0b68da;
 }
 
+
+/* margin */
+.mb-250 {
+    margin-bottom: 250px;
+}
 
