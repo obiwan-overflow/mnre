@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap-4/css/bootstrap.min.css">
+    <!-- css theme -->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!-- icon -->
+    <link href="assets/fontawesome-free/css/all.css" rel="stylesheet">
+    
+    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/bootstrap-4/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-theme">
+        <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/logo_s.png" alt="" class="w-50"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav menu-theme ml-md-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">เกี่ยวกับหน่วยงาน</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">แผนที่หน่วยงาน</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html">เข้าสู่ระบบ</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="breadcrumb-theme">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul>
+              <li><a href="index.html">หน้าหลัก</a></li>
+              <li class="active" aria-current="page">ติดตามเรื่องร้องเรียน</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right mb-3">
+                    <a href="ticket.html" class="btn btn-theme">กรอก Ticket</a>
+                </div>
+                <div class="col-md-12">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th width="10%" class="text-center">#</th>
+                                <th>ชื่อเรื่อง</th>
+                                <th>สภานะ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">1</td>
+                                <td>ร้องเรียนเรื่อง</td>
+                                <td><i class="fas fa-circle text-success"></i> เรื่องร้องเรียน/ร้องทุกข์ที่ดำเนินการเสร็จสิ้นแล้ว</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2</td>
+                                <td>ร้องเรียนเรื่อง</td>
+                                <td><i class="fas fa-circle text-warning"></i> เรื่องร้องเรียน/ร้องทุกข์อยู่ระหว่างดำเนินการ</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">3</td>
+                                <td>ร้องเรียนเรื่อง</td>
+                                <td><i class="fas fa-circle text-orange"></i>  เรื่องร้องเรียน/ร้องทุกข์ที่อีก 7 วันจะครบกำหนด</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">4</td>
+                                <td>ร้องเรียนเรื่อง</td>
+                                <td><i class="fas fa-circle text-danger"></i>  เรื่องร้องเรียน/ร้องทุกข์ที่ยังไม่แล้วเสร็จ และล่าช้ากว่ากำหนด</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h5>ส่วนประสานติดตามเรื่องร้องเรียน กองตรวจราชการ สำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม</h5>
+            <p class="mb-0">กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม</p>
+            <p class="mb-0">เลขที่ 92 ซ.พหลโยธิน 7 ถนนพหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
