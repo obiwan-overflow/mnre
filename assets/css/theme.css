@@ -22,13 +22,16 @@ html,body {
 }
 .menu-theme li a {
     font-size: 1.1rem;
+    color: #eee !important;
+}
+.menu-theme li.active a {
     color: #fff !important;
 }
 
 /* footer */
 .footer {
     padding: 50px 0;
-    background-color: #f6f6f6;
+    background-color: #EFEFEF;
 }
 .footer h5 {
     color: #001E6C;
@@ -37,6 +40,9 @@ html,body {
 /* color */
 .text-theme {
     color: #0a58b8;
+}
+.text-orange {
+    color: orange;
 }
 
 
@@ -51,13 +57,68 @@ html,body {
     border-color: #0b68da;
     color: #fff;
 }
+a.btn-form {
+    display: block;
+    width: 100%;   
+    text-decoration: none; 
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #0a58b8;
+    border: 2px solid #0a58b8;
+}
+.btn-form h1 {
+    color: #0a58b8;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.5rem;
+}
+a.btn-form:hover {
+    background-color: #fff;
+    transition: linear .3s;
+}
+a.btn-form:hover h1 {
+    color: #0a58b8;
+}
+a.btn-ticket {
+    display: block;
+    width: 100%;   
+    text-decoration: none; 
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #FFC947;
+    border: 2px solid #FFC947;
+}
+.btn-ticket h1 {
+    color: #0a58b8;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.5rem;
+}
+a.btn-ticket:hover {
+    background-color: #fff;
+    transition: linear .3s;
+}
+a.btn-ticket:hover h1 {
+    color: #666;
+}
 
+.btn-upload {
+    background-color: indigo;
+    color: #fff;
+}
+#file-chosen{
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+}
 
 /* breadcrumb */
 .breadcrumb-theme {
     /* background-color: #3d90f5; */
     background-color: #5089C6;
     padding: 6px 0;
+    border-bottom: 2px solid #0b68da;
 }
 .breadcrumb-theme ul {
     list-style-type: none;
@@ -68,10 +129,10 @@ html,body {
     display: inline-block;
 }
 .breadcrumb-theme ul li a {
-    color: #eee;
+    color: #fff;
 }
 .breadcrumb-theme ul li.active {
-    color: #fff;
+    color: #f4f4f4;
 }
 .breadcrumb-theme ul li:before {
     content: "/";
@@ -88,3 +149,27 @@ html,body {
 .signin {
     background-color: #fff;
 }
+
+/* input */
+input,textarea,select {
+    background-color: #f6fafd !important;
+    border-color: #d5e8f6 !important;
+    border-radius: 0 !important;
+}
+input:focus,textarea:focus,select:focus {
+    box-shadow: none !important;
+    border-color: #5089C6 !important;
+}
+
+/* text */
+a.text-link {
+    text-decoration: none;
+}
+a.text-link p {
+    color: #333;
+}
+a.text-link:hover p {
+    color: #0b68da;
+}
+
+
