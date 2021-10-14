@@ -7,12 +7,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">แบบฟอร์มเรื่องร้องเรียน</h1>
+            <h1 class="m-0">แก้ไขแบบฟอร์มเรื่องร้องเรียน</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">หน้าหลัก</a></li>
-              <li class="breadcrumb-item active">แบบฟอร์มเรื่องร้องเรียน</li>
+              <li class="breadcrumb-item active">แก้ไขแบบฟอร์มเรื่องร้องเรียน</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -27,7 +27,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4 class="card-title">แบบฟอร์มเรื่องร้องเรียน</h4>
+                            <h4 class="card-title">แก้ไขแบบฟอร์มเรื่องร้องเรียน</h4>
                         </div>
                         <div class="card-body">
                             <div class="row mb-3">
@@ -36,9 +36,9 @@
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <label for="">เลขประจำตัวประชาชน</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="1100225412896">
                                 </div>
                             </div>
                             <div class="row mb-3">
@@ -50,70 +50,71 @@
                                 </div>
                                 <div class="col-md-5">
                                     <label for="">ชื่อ</label>
-                                    <input type="text" class="form-control" placeholder="ชื่อ">
+                                    <input type="text" class="form-control" placeholder="ชื่อ" value="สมชาย">
                                 </div>
                                 <div class="col-md-5">
                                     <label for="">นามสกุล</label>
-                                    <input type="text" class="form-control" placeholder="นามสกุล">
+                                    <input type="text" class="form-control" placeholder="นามสกุล" value="เจริญ">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <div class="col-md-2">
                                     <label for="">เพศ</label>
                                     <select name="" id="" class="form-control">
-                                        <option value="">ชาย</option>
+                                        <option value="" selected>ชาย</option>
                                         <option value="">หญิง</option>
                                     </select>
                                 </div>
                                 <div class="col-md-5">
                                     <label for="">อายุ</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="29">
                                 </div>
                                 <div class="col-md-5">
                                     <label for="">โทรศัพท์บ้าน</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="0254268551">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="">โทรศัพท์มือถือ</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="0852145695">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="">e-mail</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="lorem@gmail.com">
                                 </div>
                             </div>
                             
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="">บ้านเลขที่</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="212">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="">หมู่ที่</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="6">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="">ชื่อหมู่บ้าน</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="-">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="">ซอย</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="-">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="">ถนน</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="-">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="">จังหวัด</label>
                                     <select name="" id="" class="form-control">
                                         <option value="">-- จังหวัด --</option>
+                                        <option value="" selected>กรุงเทพมหานคร</option>
                                     </select>
                                 </div>
                             </div>
@@ -122,19 +123,21 @@
                                     <label for="">อำเภอ/เขต</label>
                                     <select name="" id="" class="form-control">
                                         <option value="">-- อำเภอ/เขต --</option>
+                                        <option value="" selected>เขตป้อมปราบศัตรูพ่าย</option>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
                                     <label for="">ตำบล/แขวง</label>
                                     <select name="" id="" class="form-control">
                                         <option value="">-- ตำบล/แขวง --</option>
+                                        <option value="" selected>คลองมหานาค</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="row mb-5">
                                 <div class="col-md-6">
                                     <label for="">รหัสไปรษณีย์</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" value="10100">
                                 </div>
                             </div>
                             
@@ -290,10 +293,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <p class="text-danger">หมายเหตุ : รายการข้อมูลทั้งหมดทางระบบจะเก็บเป็นความลับ ตามพระราชบัญญัติคอมพิวเตอร์ พ.ศ. 2551</p>
-                                </div>
-                                <div class="col-md-12">
-                                    <button class="btn btn-primary">ส่งเรื่อง</button>
+                                    <button class="btn btn-primary">บันทึก</button>
                                     <a href="complaint.php" class="btn btn-danger">ยกเลิก</a>
                                 </div>
                             </div>

@@ -16,15 +16,15 @@
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-  <div class="login-logo">
+  <!-- <div class="login-logo">
     <img src="../../images/logo_s.png" alt="" class="w-100">
-  </div>
+  </div> -->
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in</p>
+      <p class="login-box-msg">เข้าสู่ระบบ</p>
 
-      <form action="index.html" method="post">
+      <form action="index.php" method="post">
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">

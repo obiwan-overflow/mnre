@@ -25,6 +25,8 @@
   <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
+  <!-- css theme -->
+  <link rel="stylesheet" href="../dist/css/theme.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -70,13 +72,13 @@
           <img src="../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="login.php" class="d-block">johny depp</a>
+          <a href="index.php" class="d-block">johny depp</a>
         </div>
       </div>
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <ul class="nav nav-pills nav-sidebar flex-column menu-left" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
             <a href="complaint.php" class="nav-link px-1" id="complaint">
               <i class="nav-icon fas fa-copy"></i>
@@ -98,6 +100,14 @@
               <i class="nav-icon fas fa-file"></i>
               <p>
                 รายงาน
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="login.php" class="nav-link px-1" id="report">
+              <i class="nav-icon fas fa-sign-out-alt"></i>
+              <p>
+                ออกจากระบบ
               </p>
             </a>
           </li>

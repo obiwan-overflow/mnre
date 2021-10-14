@@ -7,12 +7,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">รายละเอียดเรื่องร้องเรียน</h1>
+            <h1 class="m-0">บันทึกรับเรื่องร้องเรียน</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">หน้าหลัก</a></li>
-              <li class="breadcrumb-item active">รายละเอียดเรื่องร้องเรียน</li>
+              <li class="breadcrumb-item active">บันทึกรับเรื่องร้องเรียน</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -27,7 +27,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4 class="card-title">รายละเอียดเรื่องร้องเรียน</h4>
+                            <h4 class="card-title">บันทึกรับเรื่องร้องเรียน</h4>
                             <a href="complaint.php" class="float-right btn btn-dark btn-sm">ย้อนกลับ</a>
                         </div>
                         <div class="card-body">
@@ -45,10 +45,10 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="row mb-5">
+                            <div class="row">
                                 <div class="col-md-12">
-                                    <table class="table table-bordered table-primary">
-                                        <thead>
+                                    <table class="table table-bordered table-striped table-primary">
+                                        <thead class="bg-primary">
                                             <tr>
                                                 <th colspan="2">ข้อมูลผู้ร้องเรียน</th>
                                             </tr>
@@ -90,8 +90,8 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <table class="table table-bordered table-success">
-                                        <thead>
+                                    <table class="table table-bordered table-striped table-success">
+                                        <thead class="bg-success">
                                             <tr>
                                                 <th colspan="2">รายละเอียดเรื่องร้องเรียน</th>
                                             </tr>
@@ -121,43 +121,81 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="row mb-3">
-                                <div class="col-md-12">
-                                    <h4>ความก้าวหน้าการดำเนินการเรื่องร้องเรียน</h4>
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th>ลำดับ</th>
-                                                <th>วันที่รายงาน</th>
-                                                <th>หน่วยงานระดับกรม</th>
-                                                <th>หน่วยงานระดับสำนัก</th>
-                                                <th>รายละเอียดความก้าวหน้า</th>
-                                                <th>ไฟล์แนบ</th>
-                                            </tr>
-                                        </thead>
-                                    </table>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">ประเภทปัญหา</h4>
+                        </div>
                         <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="">ประเภทปัญหา</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="">เลือกประเภทปัญหา</option>
+                                    </select>
+                                </div>  
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-12">
+                                    <label for="">เลือกหน่วยงาน</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="" id="" class="form-control">
+                                        <option value="">เลือกหน่วยงาน</option>
+                                        <option value="">กตร</option>
+                                        <option value="">หน่วยงานกรม/รัฐวิสาหกิจ/องค์การมหาชน</option>
+                                        <option value="">ทสจ</option>
+                                        <option value="">สสภ</option>
+                                    </select>
+                                    <!-- <button class="btn btn-primary">เลือกหน่วยงาน</button> -->
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="" id="" class="form-control">
+                                        <option value="">เลือกหน่วยงาน</option>
+                                        <option value="">1. ปม.</option>
+                                        <option value="">2. อส.</option>
+                                        <option value="">3. ทช.</option>
+                                        <option value="">4. ทธ.</option>
+                                        <option value="">5. ทน.</option>
+                                        <option value="">6. ทบ.</option>
+                                        <option value="">7. คพ.</option>
+                                        <option value="">8. สผ.</option>
+                                        <option value="">9. สส.</option>
+                                        <option value="">10. อ.อ.ป.</option>
+                                        <option value="">11. อสส.</option>
+                                        <option value="">12. อ.ส.พ.</option>
+                                        <option value="">13. อบก.</option>
+                                        <option value="">14. สพภ.</option>
+                                    </select>
+                                    <!-- <button class="btn btn-primary">เลือกหน่วยงาน</button> -->
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered">
+                                        <thead class="bg-primary">
+                                            <tr>
+                                                <th>ลำดับ</th>
+                                                <th>หน่วยงาน</th>
+                                                <th>จัดการ</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>   
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h4>ความเห็นเจ้าหน้าที่</h4>
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="">กรอกข้อมูล/ความเห็น</label>
-                                    <textarea name="" id="summernote" cols="30" rows="30"></textarea>
-                                </div>
-                                <div class="col-md-12 mb-3">
-                                    <label for="file" class="btn btn-info">เอกสารแนบ</label>
-                                    <input type="file" class="form-control d-none" id="file">
-                                </div>
-                                <div class="col-md-12">
-                                    <button class="btn btn-primary">บันทึก</button>  
+                                    <button class="btn btn-primary">ส่งเรื่อง</button>
                                     <a href="complaint.php" class="btn btn-danger">ยกเลิก</a>
                                 </div>
                             </div>
@@ -169,12 +207,26 @@
     </section>
     <!-- /.content -->
   </div>
-
+    <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">หน่วยงาน</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            </div>
+        </div>
+    </div> -->
 <?php require_once('../inc/footer.php'); ?>
 <script>
     $('#complaint').addClass('active');
-
-    $('#summernote').summernote({
-        height: 300
-    });
 </script>
