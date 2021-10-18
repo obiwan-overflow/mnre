@@ -32,14 +32,31 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <table class="table table-bordered table-primary">
                                         <tbody>
                                             <tr>
-                                                <td>Ticket ID : 00001</td>
+                                                <td colspan="2">Ticket ID : 00001</td>
                                             </tr>
                                             <tr>
                                                 <td>วันที่เรื่องร้องเรียนเข้าระบบ : 12/10/2021</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-md-12">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr class="bg-primary">
+                                                <th>ลำดับ</th>
+                                                <th>หน่วยงาน / วันที่ สป.ทส. ส่งเรื่องให้</th>
+                                                <th>สถานะการดำเนินงาน</th>
+                                                <th>สถานะของเรื่องร้องเรียน</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="4" class="text-center">ยังไม่มีข้อมูล</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -125,7 +142,7 @@
                                 <div class="col-md-12">
                                     <h4>ความก้าวหน้าการดำเนินการเรื่องร้องเรียน</h4>
                                     <table class="table table-bordered">
-                                        <thead>
+                                        <thead class="bg-primary">
                                             <tr>
                                                 <th>ลำดับ</th>
                                                 <th>วันที่รายงาน</th>
@@ -135,6 +152,11 @@
                                                 <th>ไฟล์แนบ</th>
                                             </tr>
                                         </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="6" class="text-center">- ยังไม่มีข้อมูลความก้าวหน้าการดำเนินการเรื่องร้องเรียน -</td>
+                                            </tr>
+                                        </tbody>
                                     </table>
                                 </div>
                             </div>
@@ -143,11 +165,58 @@
                 </div>
                 <div class="col-md-12">
                     <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">ความคิดเห็น</h4>
+                        </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h4>ความเห็นเจ้าหน้าที่</h4>
+                                    <div class="card">
+                                        <div class="card-header bg-primary">
+                                            <h4 class="card-title">เจ้าหน้าที่</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <small>วันที่ : 17/10/2564 15:49</small>
+                                                    <p>ประสานงาน</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header bg-warning">
+                                            <h4 class="card-title">สปน.</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <small>วันที่ : 17/10/2564 15:49</small>
+                                                    <p>ประสานงาน</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header bg-theme">
+                                            <h4 class="card-title">ปกท.ทส/รอง ปทก.ทส</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <small>วันที่ : 17/10/2564 15:49</small>
+                                                    <p>ประสานงาน</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-md-12">
                                     <label for="">กรอกข้อมูล/ความเห็น</label>
                                     <textarea name="" id="summernote" cols="30" rows="30"></textarea>
@@ -155,6 +224,7 @@
                                 <div class="col-md-12 mb-3">
                                     <label for="file" class="btn btn-info">เอกสารแนบ</label>
                                     <input type="file" class="form-control d-none" id="file">
+                                    รองรับไฟล์การอัพโหลด
                                 </div>
                                 <div class="col-md-12">
                                     <button class="btn btn-primary">บันทึก</button>  

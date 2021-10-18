@@ -25,13 +25,6 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-                                <div class="col-md-12 text-right">
-                                    <a href="complaint_add.php" class="btn btn-primary"><i class="fas fa-folder-plus"></i> แบบฟอร์มเรื่องร้องเรียน</a>
-                                </div>
-                            </div>
-                        </div>
                         <div class="card-body">
                             <form action="complaint.php" method="post">
                             <div class="row mb-3">
@@ -73,17 +66,14 @@
                             </form>
                             <div class="row mb-3">
                                 <div class="col-md-12">
-                                    <p>สถานะ</p>
-                                    <ul class="list-unstyled">
-                                        <li><p><i class="fas fa-circle text-warning"></i> อยู่ระหว่างการดำเนินการ</p></li>
-                                        <li><p><i class="fas fa-circle text-info"></i> อยู่ระหว่างการดำเนินการเหลืออีก 7 วันครบกำหนด</p></li>
-                                        <li><p><i class="fas fa-circle text-danger"></i> ดำเนินการล่าช้ากว่ากำหนดโดยเกิน 45 วันที่กำหนด</p></li>
-                                        <li><p><i class="fas fa-circle text-success"></i> ดำเนินการแล้วเสร็จ</p></li>
-                                        <li><p><i class="fas fa-circle text-secondary"></i> กระทรวงฯ ส่งเรื่องร้องเรียนให้หน่วยงานแล้ว แต่หน่วยงานยังไม่รับเรื่อง</p></li>
-                                    </ul>
+                                    <a href="" class="btn btn-theme">เรื่องร้องเรียนที่ได้โดยตรง <span class="badge badge-light">4</span></a>
+                                    <a href="" class="btn btn-primary">เรื่องร้องเรียนที่ได้รับจาก สปน. <span class="badge badge-light">20</span></a>
                                 </div>
                             </div>
                             <div class="row">
+                                <div class="col-md-12 text-right mb-3">
+                                    <a href="complaint_add.php" class="btn btn-primary"><i class="fas fa-folder-plus"></i> แบบฟอร์มเรื่องร้องเรียน</a>
+                                </div>
                                 <div class="col-md-12">
                                     <table class="table table-bordered table-striped">
                                         <thead>
@@ -109,7 +99,7 @@
                                                     <a href="complaint_detail.php" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="fas fa-eye"></i></a>
                                                     <a href="complaint_status.php" class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="top" title="รับเรื่องร้องเรียน"><i class="far fa-check-square"></i></a>
                                                     <a href="complaint_edit.php" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="top" title="แก้ไขข้อมูล"><i class="fas fa-edit"></i></a>
-                                                    <!-- <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a> -->
+                                                    <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a>
                                                     <a href="" class="btn btn-danger btn-sm btn-del" data-toggle="tooltip" data-placement="top" title="ลบข้อมูล"><i class="far fa-trash-alt"></i></a>
                                                 </td>
                                             </tr>
@@ -124,7 +114,7 @@
                                                     <a href="complaint_detail.php" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="fas fa-eye"></i></a>
                                                     <a href="complaint_status.php" class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="top" title="รับเรื่องร้องเรียน"><i class="far fa-check-square"></i></a>
                                                     <a href="complaint_edit.php" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="top" title="แก้ไขข้อมูล"><i class="fas fa-edit"></i></a>
-                                                    <!-- <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a> -->
+                                                    <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a>
                                                     <a href="" class="btn btn-danger btn-sm btn-del" data-toggle="tooltip" data-placement="top" title="ลบข้อมูล"><i class="far fa-trash-alt"></i></a>
                                                 </td>
                                             </tr>
@@ -139,7 +129,7 @@
                                                     <a href="complaint_detail.php" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="fas fa-eye"></i></a>
                                                     <a href="complaint_status.php" class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="top" title="รับเรื่องร้องเรียน"><i class="far fa-check-square"></i></a>
                                                     <a href="complaint_edit.php" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="top" title="แก้ไขข้อมูล"><i class="fas fa-edit"></i></a>
-                                                    <!-- <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a> -->
+                                                    <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a>
                                                     <a href="" class="btn btn-danger btn-sm btn-del" data-toggle="tooltip" data-placement="top" title="ลบข้อมูล"><i class="far fa-trash-alt"></i></a>
                                                 </td>
                                             </tr>
@@ -154,7 +144,7 @@
                                                     <a href="complaint_detail.php" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="fas fa-eye"></i></a>
                                                     <a href="complaint_status.php" class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="top" title="รับเรื่องร้องเรียน"><i class="far fa-check-square"></i></a>
                                                     <a href="complaint_edit.php" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="top" title="แก้ไขข้อมูล"><i class="fas fa-edit"></i></a>
-                                                    <!-- <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a> -->
+                                                    <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a>
                                                     <a href="" class="btn btn-danger btn-sm btn-del" data-toggle="tooltip" data-placement="top" title="ลบข้อมูล"><i class="far fa-trash-alt"></i></a>
                                                 </td>
                                             </tr>
@@ -169,12 +159,24 @@
                                                     <a href="complaint_detail.php" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="fas fa-eye"></i></a>
                                                     <a href="complaint_status.php" class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="top" title="รับเรื่องร้องเรียน"><i class="far fa-check-square"></i></a>
                                                     <a href="complaint_edit.php" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="top" title="แก้ไขข้อมูล"><i class="fas fa-edit"></i></a>
-                                                    <!-- <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a> -->
+                                                    <a href="" class="btn btn-theme btn-sm" data-toggle="tooltip" data-placement="top" title="จบงาน"><i class="fas fa-file"></i></a>
                                                     <a href="" class="btn btn-danger btn-sm btn-del" data-toggle="tooltip" data-placement="top" title="ลบข้อมูล"><i class="far fa-trash-alt"></i></a>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <div class="row mb-3">
+                                        <div class="col-md-12">
+                                            <p>สถานะ</p>
+                                            <ul class="list-unstyled">
+                                                <li><p><i class="fas fa-circle text-warning"></i> อยู่ระหว่างการดำเนินการ</p></li>
+                                                <li><p><i class="fas fa-circle text-info"></i> อยู่ระหว่างการดำเนินการเหลืออีก 7 วันครบกำหนด</p></li>
+                                                <li><p><i class="fas fa-circle text-danger"></i> ดำเนินการล่าช้ากว่ากำหนดโดยเกิน 45 วันที่กำหนด</p></li>
+                                                <li><p><i class="fas fa-circle text-success"></i> ดำเนินการแล้วเสร็จ</p></li>
+                                                <li><p><i class="fas fa-circle text-secondary"></i> กระทรวงฯ ส่งเรื่องร้องเรียนให้หน่วยงานแล้ว แต่หน่วยงานยังไม่รับเรื่อง</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                     <nav aria-label="Page navigation example">
                                         <ul class="pagination">
                                             <li class="page-item">
